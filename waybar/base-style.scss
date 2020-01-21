@@ -1,5 +1,3 @@
-@import 'local.scss';
-
 * {
     border: none;
     border-radius: 0;
@@ -130,3 +128,5 @@ window#waybar.hidden {
 #mpd.paused {
     background-color: $color-dark-yellow;
 }
+
+@import 'local.scss';
