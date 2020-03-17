@@ -122,11 +122,11 @@ window#waybar.hidden {
 }
 
 #mpd.stopped {
-    background-color: $color-bg4;
+    background-color: $color-bg1;
 }
 
 #mpd.paused {
-    background-color: $color-dark-yellow;
+    background-color: $color-bg1;
 }
 
 @import 'local.scss';
