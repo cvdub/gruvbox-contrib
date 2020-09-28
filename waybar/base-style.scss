@@ -45,6 +45,7 @@ window#waybar.hidden {
 #temperature,
 #backlight,
 #network,
+#custom-bluetooth,
 #pulseaudio,
 #custom-media,
 #tray,
@@ -78,6 +79,10 @@ window#waybar.hidden {
 #battery.critical:not(.charging) {
     background-color: $color-dark-red;
     @extend .blinking;
+}
+
+#custom-bluetooth.off {
+    color: $color-bg4;
 }
 
 #network.disconnected {
